@@ -1,0 +1,27 @@
+{
+  "name": "electron-snapping",
+  "version": "0.1.0",
+  "description": "An example application that demonstrates windows that snap to dimensions.",
+  "main": "example/index.js",
+  "scripts": {
+    "copy": "cp -R src example/app/script/lib",
+    "export": "cp -R example/app/script/lib/* src",
+    "example": "electron example/app.js"
+  },
+  "keywords": [
+    "snappable",
+    "snapping",
+    "sticky",
+    "electron"
+  ],
+  "author": {
+    "email": "matt@polymermallard.com",
+    "name": "Matt Kenefick",
+    "url": "https://github.com/mattkenefick"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^8.0.0",
+    "electron": "^5.0.6"
+  }
+}
